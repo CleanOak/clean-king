@@ -65,15 +65,23 @@ header a {
 }
 
 #menu > li {
-    display: block;
+    /* display: inline-block; */
     float: left;
+    
 }
 
-li > a{
-    /* display: block; */
+li > a:hover{
+    display: inline-block;
     padding: 8px;
-
+    background-color: #E26310;
+    color: #ffffff;
 }
+/* from stack overflow */
+#menu li:not(:last-child):after {
+    content: "|";
+}
+
+
 
 /* Main page */
 
