@@ -23,7 +23,7 @@ header {
     display: flex;
     /* justify-content: space-between; */
     align-items: baseline;
-    left:10px;
+    left:0px;
 }
 
 header a {
@@ -41,11 +41,11 @@ header a {
 
 nav {
     position: absolute;
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1 rem;
-    display: none;
+    /* display: none; */
     top: 100%; 
 
 }
@@ -63,13 +63,13 @@ nav {
 }
 
 #menu > li {
-    /* display: inline-block; */
-    float: left;
+    display: block;
+    /* float: left; */
     
 }
 
 li > a:hover{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 6px;
     background-color: #E26310;
     color: #ffffff;
@@ -100,7 +100,7 @@ li > a:hover{
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
 }
