@@ -21,7 +21,7 @@ header {
     z-index: 99;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: baseline;
     left:0px;
 }
@@ -30,6 +30,8 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+
 #logo {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
@@ -44,8 +46,9 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
+    right: 10px;
     padding: 0 1 rem;
-    /* display: none; */
+    display: none;
     top: 100%; 
 
 }
@@ -53,13 +56,13 @@ nav {
 #menu {
     list-style-type: none;
     letter-spacing: 4px;
-    font-size: 115%;
-    position: fixed;
+    font-size: 110%;
+    /* position: fixed;
     top:15px;
     right: 5px;
-    font-family: 'lato', sans-serif;
+    font-family: 'lato', sans-serif; */
     color: #E26310;
-    
+     
 }
 
 #menu > li {
@@ -74,10 +77,13 @@ li > a:hover{
     background-color: #E26310;
     color: #ffffff;
 }
-/* from stack overflow */
-#menu li:not(:last-child):after {
+/* from stack overflow
+puts a line behind each menu
+ */
+
+/* #menu li:not(:last-child):after {
     content: "|";
-}
+} */
 
 /* Nav collapse */
 #nav-collapse:checked~nav{
@@ -88,8 +94,9 @@ li > a:hover{
     display: none;
 }
 
-#nav-collapse-label {
+.nav-collapse-label {
     font-size: 2rem;
+    color: #E26310;
 } 
 
 
@@ -100,7 +107,7 @@ li > a:hover{
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 90px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
