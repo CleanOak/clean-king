@@ -18,7 +18,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    /* z-index: 99; */
+    z-index: 99;
     width: 100%;
     /* box-shadow: 0 2px 2px #3a3a3a;  */
     display: flex;
@@ -36,6 +36,43 @@ header a {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #E26310;
+}
+
+/* Navbar style -- Not sure why this isn't working in the code*/ 
+
+/* nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1 rem;
+
+    display: none;
+    top: 100%; 
+
+} */
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-size: 110%;
+    position: fixed;
+    top:15px;
+    right: 10px;
+    font-family: 'lato', sans-serif;
+    color: #E26310;
+    
+}
+
+#menu > li {
+    display: block;
+    float: left;
+}
+
+li > a{
+    /* display: block; */
+    padding: 8px;
+
 }
 
 /* Main page */
@@ -83,3 +120,6 @@ main {
     left:20px;
     position: relative;
 }
+
+
+
