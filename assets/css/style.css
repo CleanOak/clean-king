@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap");
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,700&family=Mooli&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
 
@@ -227,13 +227,13 @@ main {
 
 /* footer information */
  #contact  {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         text-align: center;
-        margin-top: 20px;
-
+        margin-top: 5px;
 }
+
 
 /* Media query: for mobile phones and tablets */
 @media screen and (min-width: 768px) {
