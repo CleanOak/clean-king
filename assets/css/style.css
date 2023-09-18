@@ -225,7 +225,15 @@ main {
     padding: 0 20px;
 }
 
+/* footer information */
+ #contact  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
 
+}
 
 /* Media query: for mobile phones and tablets */
 @media screen and (min-width: 768px) {
