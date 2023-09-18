@@ -160,12 +160,37 @@ main {
 /* Our services section */
 
 #services {
-    width: 90%;
+    /* width: 90%; */
+    margin-top: 60px auto;
+    /* text-align: center; */
+    background-color: #FFFDD0;
+    
     
 }
 
-#services > h2 {
+#services  h2 {
+    margin-top: 50px;
     text-align: center;
+    font-size: 200%;
+    color: #E26310;
+}
+
+#services div h4 {
+    color: #E26310;
+    text-align: center;
+    line-height: 20px;
+
+    
+}
+
+#commercial hr {
+    border-bottom: 1px solid;
+    margin:5px 0;
+    text-align: center;
+    width: 20%;
+    
+    
+    
 }
 
 
