@@ -164,6 +164,7 @@ main {
     margin-top: 60px auto;
     /* text-align: center; */
     background-color: #FFFDD0;
+  
     
     
 }
@@ -183,16 +184,43 @@ main {
     
 }
 
-#commercial hr {
-    border-bottom: 1px solid;
-    margin:5px 0;
+
+#commercial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 20%;
-    
-    
-    
+    margin-top: 20px;
+    /* min-height: 100vh; */
 }
 
+#commercial p {
+    padding: 0 25px;
+}
+
+#domestic {
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+}
+
+#domestic p {
+    padding: 0 25px;
+}
+
+#industrial {
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+}
+
+#industrial p {
+    padding: 0 20px;
+}
 
 
 
