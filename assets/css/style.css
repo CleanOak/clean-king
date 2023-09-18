@@ -161,12 +161,14 @@ main {
 
 #services {
     width: 90%;
-    margin: 20px auto;
+    
 }
 
-#services h2 {
+#services > h2 {
     text-align: center;
 }
+
+
 
 
 /* Media query: for mobile phones and tablets */
