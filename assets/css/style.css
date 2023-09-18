@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,700&family=Mooli&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -150,10 +152,11 @@ main {
     font-family: 'oswald', sans-serif;
 }
 
-.expertise {
+.expertise h3{
+    font-family: 'mooli', sans-serif;
     list-style-position: inside;
     list-style-type: none;
-    left:20px;
+    left:2px;
     position: relative;
 }
 
