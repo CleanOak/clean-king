@@ -253,6 +253,20 @@ main {
     border: none;
 }
 
+#socials {
+    text-align: center;
+    padding: 10px 0;
+    /* display: flex; */
+    justify-content: space-evenly;
+    background-color: rgb(255, 99, 71, 0.9);
+}
+
+#socials i {
+    font-size: 150%;
+    padding: 5%;
+    color: #ffffff;
+}
+
 /* Media query: for mobile phones and tablets */
 @media screen and (min-width: 768px) {
 
