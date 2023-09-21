@@ -234,6 +234,13 @@ main {
         margin-top: 5px;
 }
 
+#address-tel {
+    background: url('../images/cleaningbkgrd.jpeg') no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
 
 /* Media query: for mobile phones and tablets */
 @media screen and (min-width: 768px) {
