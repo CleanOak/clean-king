@@ -269,6 +269,13 @@ main {
     color: #ffffff;
 }
 
+
+/* Book Now page */
+#booknow {
+    background-image: url('../images/cleaningbkgrd.jpeg');
+    background-size: cover;
+}
+
 /* Media query: for mobile phones and tablets */
 @media screen and (min-width: 768px) {
 
@@ -346,7 +353,7 @@ main {
         }
 
      #cleaner {
-        height: 850px;
+        height: 9000px;
         
             }
 
