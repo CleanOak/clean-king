@@ -112,7 +112,7 @@ li > a:hover{
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -120,7 +120,7 @@ main {
 /* cleaner*/
 
 #cleaner {
-    height: 400px;
+    height: 350px;
     width: 100%;
     background: url('../images/cleaning_1.jpeg') no-repeat center center/cover;
     position: relative;
@@ -157,12 +157,11 @@ main {
 /* Our services section */
 
 #services {
-    /* width: 90%; */
+    /* width: 100%; */
     margin-top: 60px auto;
-    /* text-align: center; */
+    text-align: center;
     background-color: #FFFDD0;
-  
-    
+     
     
 }
 
@@ -173,7 +172,7 @@ main {
     color: #E26310;
 }
 
-#services div h4 {
+#services h4 {
     color: #E26310;
     text-align: center;
     line-height: 20px;
@@ -181,9 +180,13 @@ main {
     
 }
 
+#services i {
+    color: #E26310;
+}
+    
 
 #commercial {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -196,7 +199,7 @@ main {
 }
 
 #domestic {
-       display: flex;
+       /* display: flex; */
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -208,7 +211,7 @@ main {
 }
 
 #industrial {
-       display: flex;
+       /* display: flex; */
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -309,8 +312,16 @@ main {
                     /* margin-top: 5px; */
                     width:300px;
                     font-size: medium;
-                    
+                   
                 }
+
+  #services div {
+      vertical-align: top;
+      display: inline-block;
+      width: 30%;
+      padding-right: 5px;
+      margin: 10px;
+  }
   
 }
 
@@ -321,6 +332,8 @@ main {
             height: 500px;
     
         }
+
+    
 }
 
 
@@ -336,6 +349,7 @@ main {
         height: 850px;
         
             }
+
 }
 
 
