@@ -88,13 +88,7 @@ li > a:hover{
     background-color: #E26310;
     color: #ffffff;
 }
-/* from stack overflow
-puts a line behind each menu
- */
 
-/* #menu li:not(:last-child):after {
-    content: "|";
-} */
 
 /* Nav collapse */
 #nav-collapse:checked~nav{
@@ -260,7 +254,7 @@ main {
 
 #socials {
     text-align: center;
-    padding: 10px 0;
+    padding: 2px 0;
     /* display: flex; */
     justify-content: space-evenly;
     background-color: rgb(255, 99, 71, 0.9);
@@ -268,7 +262,7 @@ main {
 
 #socials i {
     font-size: 150%;
-    padding: 5%;
+    padding: 2%;
     color: #ffffff;
 }
 
@@ -276,7 +270,73 @@ main {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex
+    }
+
+        /* from stack overflow
+    puts a line behind each menu
+     */
+        #menu li:not(:last-child):after {
+        content: "|";
+    }
+
+        #nav-collapse-label {
+            display: none;
+        }
+
+
+        /* Main Section */
+                main {
+                     
+                    margin-top: 50px;             
+                }
+
+
+            #cleaner {
+                height: 450px;
+            
+                }
+
+                #cover-text {
+                    /* margin-top: 5px; */
+                    width:300px;
+                    font-size: medium;
+                    
+                }
   
 }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    #cleaner {
+            height: 500px;
+    
+        }
+}
+
+
+/* Larger devices 1200px and up */
+@media screen and (min-width: 1200px) {
+
+    main {
+    
+            margin-top: 40px;
+        }
+
+     #cleaner {
+        height: 850px;
+        
+            }
+}
+
 
 
