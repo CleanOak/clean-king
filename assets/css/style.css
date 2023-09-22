@@ -335,8 +335,9 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+    
     #cleaner {
-            height: 400px;
+            height: 500px;
     
         }
 
@@ -349,11 +350,11 @@ main {
 
     main {
     
-            margin-top: 40px;
+            margin-top: 0;
         }
 
      #cleaner {
-        height: 9000px;
+        height: 950px;
         
             }
 
