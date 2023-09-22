@@ -270,18 +270,19 @@ main {
 }
 
 
-/* Book Now page */
-#booknow {
-   margin-top: 40px;
+/* About Us section */
+#aboutus {
+   
     /* text-align: center; */
     background-color: #FFFDD0;
     height: 500px;
     width: 100%;
     position: relative;
+    top: 200px;
       
 }
 
-#booknow_header {
+#aboutus_header {
     position: relative;
     left: 10px;
 }
@@ -341,7 +342,7 @@ main {
   }
 
   /* Book_now form page */
-  #booknow {
+  #aboutus {
     height: 400px;
   }
   
