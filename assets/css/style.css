@@ -112,7 +112,7 @@ li > a:hover{
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -120,7 +120,7 @@ main {
 /* cleaner*/
 
 #cleaner {
-    height: 350px;
+    height: 500px;
     width: 100%;
     background: url('../images/cleaning_1.jpeg') no-repeat center center/cover;
     position: relative;
@@ -304,7 +304,7 @@ main {
 
 
             #cleaner {
-                height: 450px;
+                height: 400px;
             
                 }
 
@@ -329,7 +329,7 @@ main {
 @media screen and (min-width: 992px) {
 
     #cleaner {
-            height: 500px;
+            height: 400px;
     
         }
 
