@@ -259,14 +259,16 @@ main {
 
 #comm_section {
     text-align: center;  
+    margin-top: 5px;
 }
-
 
 
 .service_img {
     width: 100%;
     /* height: fit-content; */
-    /* line-height: 1rem; */
+    line-height: 1rem;
+    position: relative;
+   
 }
 
 
@@ -277,8 +279,7 @@ main {
     width: 100%;
     position: relative;
     top: 60px;
-   
-    
+     
 }
 
 #aboutus_info {
@@ -305,6 +306,9 @@ main {
     max-width: 350px;
     max-height: 300px;
     margin-top: 20px;
+    align-items: center;
+    position: relative;
+    left: 40px;
     
 }
 
