@@ -232,17 +232,7 @@ main {
 }
 
 
-/* Map section */
-#map-container {
-    height: 300px;
-    margin-top: 2px;
-}
 
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
-}
 
 #socials {
     text-align: center;
@@ -258,6 +248,28 @@ main {
     color: #ffffff;
 }
 
+/* Our services section */
+#ourservice{
+    height: 500px;
+    /* width: 100%; */
+    position: relative;
+    top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#servicepage {
+    position: relative;
+    text-align: center;
+    
+}
+
+.service_img {
+    /* width: 100%; */
+    line-height: 1rem;
+}
+
 
 /* About Us section */
 
@@ -266,16 +278,16 @@ main {
     width: 100%;
     position: relative;
     top: 60px;
-    /* justify-content: center; */
-    /* align-items: center; */
+   
+    
 }
 
 #aboutus_info {
-    position: relative;
-    /* left: 15px; */
+    position: relative;  
     text-align: center;
-    /* margin-bottom: 70px; */
+    
 }
+
 
 #aboutus h2 {
     text-decoration: overline underline;
@@ -310,7 +322,7 @@ main {
     position: relative;
     top: 60px;
     text-align: center;
-    /* margin-bottom: 50px; */
+    margin-bottom: 40px;
 
 }
 
@@ -337,6 +349,18 @@ main {
 
 .book_button {
    color: #E26310;
+}
+
+/* Map section */
+#map-container {
+    height: 300px;
+    margin-top: 5px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 
