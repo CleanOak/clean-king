@@ -224,7 +224,14 @@ main {
 }
 
 /* footer information */
-
+footer {
+    
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: fixed;
+        
+}
 
 #address-tel p{
     font-family: 'lato', sans-serif;
@@ -246,20 +253,26 @@ main {
     color: #ffffff;
 }
 
+
+
+
 /* Our services section */
 #ourservice{
+    background-color: #FFFDD0;
     height: 500px;
     width: 100%;
     position: relative;
-    top: 60px;
+    top: 40px;
     justify-content: center;
     align-items: center;
     text-align: center;
+   
 }
 
 #comm_section {
     text-align: center;  
     margin-top: 5px;
+    background-color: #FFFDD0;
 }
 
 
@@ -279,6 +292,7 @@ main {
     width: 100%;
     position: relative;
     top: 60px;
+    background-color: #FFFDD0;
      
 }
 
@@ -312,11 +326,7 @@ main {
     
 }
 
-#center-circle {
-    align-items: center;
-    position: relative;
-    left: 30px;
-}
+
 
 /* Contact us section */
 #contact_us {
