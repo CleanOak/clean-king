@@ -290,7 +290,6 @@ main {
     background: url('../images/cleaning_1.jpeg') no-repeat top center;
     height: 70vw;
     width: 70vw;
-    /* margin-bottom: 70px; */
     border-radius: 50%;
     max-width: 350px;
     max-height: 300px;
@@ -311,13 +310,13 @@ main {
     position: relative;
     top: 60px;
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 
 }
 
-#contact_info {
+#contact_info h4{
     margin-top: 10px;
-    
+    color: #E26310;
 }
 
 /* Form section */
@@ -334,6 +333,10 @@ main {
 
 #radio_section {
     margin-bottom: 10px;
+}
+
+.book_button {
+   color: #E26310;
 }
 
 
