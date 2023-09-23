@@ -232,8 +232,6 @@ main {
 }
 
 
-
-
 #socials {
     text-align: center;
     padding: 2px 0;
@@ -251,7 +249,7 @@ main {
 /* Our services section */
 #ourservice{
     height: 500px;
-    /* width: 100%; */
+    width: 100%;
     position: relative;
     top: 60px;
     justify-content: center;
@@ -259,15 +257,16 @@ main {
     text-align: center;
 }
 
-#servicepage {
-    position: relative;
-    text-align: center;
-    
+#comm_section {
+    text-align: center;  
 }
 
+
+
 .service_img {
-    /* width: 100%; */
-    line-height: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    /* line-height: 1rem; */
 }
 
 
