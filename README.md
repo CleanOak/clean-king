@@ -1,6 +1,6 @@
 # Clean King
 
-(Developer: morgan Asare)
+(Developer: Morgan Asare)
 
 ![Mockup image]()
 
@@ -37,3 +37,4 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
