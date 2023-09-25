@@ -294,8 +294,6 @@ footer {
 }
 
 
-
-
 .service_img {
     width: 100%;
     /* height: 500px; */
@@ -312,22 +310,30 @@ footer {
 }
 
 
-
 /* About Us section */
 
 #aboutus{
-    height: 500px;
     width: 100%;
     position: relative;
-    top: 60px;
+    top: 0;
     background-color: #FFFDD0;
-     
+    margin: auto;    
 }
 
 #aboutus_info {
     position: relative;  
     text-align: center;
     
+}
+
+#about_img {
+    /* width: 100%; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* left: 150px; */
+    /* height: 200px; */
 }
 
 
@@ -358,10 +364,11 @@ footer {
 
 /* Contact us section */
 #contact_us {
-    /* height: 500px; */
+    height: 550px;
     /* width: 100%; */
     position: relative;
-    /* top: 60px; */
+    top: 60px;
+    margin-top: 140px;
     text-align: center;
     /* margin-bottom: 40px; */
 
@@ -374,14 +381,17 @@ footer {
 
 /* Form section */
 #booknow_form {
-    /* margin-top: 50px; */
+    margin-top: 50px;
     /* background-color: #FFFDD0; */
     /* width: 50%; */
     /* height: 200px; */
-    /* margin: 5px 0 0 0; */
+    margin: 5px 0 0 0;
     /* padding: 0 5px; */
 }
 
+#contact_us hr {
+    color: #E26310;
+}
 
 
 #radio_section {
@@ -493,13 +503,13 @@ footer {
 
 /* About Us page */
 #contact_us {
-    display: flex;
-    /* display: flex; */
-  flex-direction: row;
-  align-items: stretch;
-    width: 100%;
+    display: flex; 
+  /* flex-direction: row; */
+  /* align-items:inherit; */
+    width: 100vw;
+    /* height: 100vh; */
     margin-bottom: 40px; 
-    padding: 110px 350px 28px 45px;
+    padding: 5px 250px 28px 45px;
 }
 
 #contact_info {
@@ -507,23 +517,36 @@ footer {
 }
 
 #aboutus {
-    position: relative;
+    /* position: relative; */
     /* top: 40px; */
     /* margin-top: 40px; */
+    /* margin: 0 80px; */
+    /* overflow: hidden; */
     display: flex;   
+    height: 400px;
+    width: 90%;
 }
+
+
 
 #booknow_form {
     position: relative;
-    left: 50px;
+    /* left: 50px; */
     text-align: center;
 }
 
 /* for vertical line separation */
-hr.vertical {
-    height:100%; /* you might need some positioning for this to work, see other questions about 100% height */
-    width:0;
-    border:1px solid #E26310;
+/* hr.vertical { */
+    /* line-height:15%;  */
+    /* you might need some positioning for this to work, see other questions about 100% height */
+    /* width:0; */
+    /* border:1px solid #E26310; */
+/* } */
+
+.vertical {
+    width: "0";
+    size : "300";
+     margin: 0 auto;
 }
   
 }
