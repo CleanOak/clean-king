@@ -376,9 +376,8 @@ footer {
     position: relative;
     /* top: 60px; */
     margin-top: 120px;
-    text-align: center;
-    margin-bottom: 50px;
-
+    margin-bottom: 240px;
+     text-align: center;
 }
 
 
@@ -394,7 +393,22 @@ footer {
     /* background-color: #FFFDD0; */
     margin: 5px 0 0 0;
     padding: 0 5px;
+    text-align: center;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0; 
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
 
 
 #contact_us hr {
@@ -406,9 +420,18 @@ footer {
     margin-bottom: 10px;
 }
 
-.book_button {
-   color: #E26310;
-}
+ .book_button {
+    background-color: #E26310;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
 
 /* Map section */
 #map-container {
@@ -523,8 +546,10 @@ footer {
     padding: 5px 250px 28px 45px;
 }
 
+
 #contact_info {
     width: 66.6%;
+    
 }
 
 #aboutus {
@@ -533,8 +558,9 @@ footer {
     margin-top: 40px;
     /* margin: 0 80px; */
     /* overflow: hidden; */
+    padding: 12px 20px;
     display: flex;   
-    height: 400px;
+    height: 420px;
     width: 90%;
 }
 
@@ -543,17 +569,16 @@ footer {
 #booknow_form {
     position: relative;
     /* left: 50px; */
-    text-align: center;
+    /* text-align: center; */
     /* width: 100%; */
+   
+   display: inline-block; 
+   
 }
 
-/* for vertical line separation */
-/* hr.vertical { */
-    /* line-height:15%;  */
-    /* you might need some positioning for this to work, see other questions about 100% height */
-    /* width:0; */
-    /* border:1px solid #E26310; */
-/* } */
+
+
+
 
 .vertical {
     width: "0";
