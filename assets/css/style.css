@@ -25,6 +25,12 @@ h3 {
     color:#E26310;
 }
 
+p {
+    font-family: 'lato', sans-serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -127,6 +133,7 @@ main {
     width: 100%;
     background: url('../images/cleaning_1.jpeg') no-repeat center center/cover;
     position: relative;
+    
     
 }
 
@@ -315,7 +322,7 @@ footer {
 #aboutus{
     width: 100%;
     position: relative;
-    top: 0;
+    top: 40px;
     background-color: #FFFDD0;
     margin: auto;    
 }
@@ -367,12 +374,14 @@ footer {
     height: 550px;
     /* width: 100%; */
     position: relative;
-    top: 60px;
-    margin-top: 140px;
+    /* top: 60px; */
+    margin-top: 120px;
     text-align: center;
-    /* margin-bottom: 40px; */
+    margin-bottom: 50px;
 
 }
+
+
 
 #contact_info h4{
     margin-top: 10px;
@@ -383,11 +392,10 @@ footer {
 #booknow_form {
     margin-top: 50px;
     /* background-color: #FFFDD0; */
-    /* width: 50%; */
-    /* height: 200px; */
     margin: 5px 0 0 0;
-    /* padding: 0 5px; */
+    padding: 0 5px;
 }
+
 
 #contact_us hr {
     color: #E26310;
@@ -451,6 +459,8 @@ footer {
 
             #cleaner {
                 height: 400px;
+                width: 90%;
+                left: 60px;
             
                 }
 
@@ -504,9 +514,10 @@ footer {
 /* About Us page */
 #contact_us {
     display: flex; 
-  /* flex-direction: row; */
-  /* align-items:inherit; */
+  flex-direction: row;
+  align-items:inherit;
     width: 100vw;
+    margin-top: 60px;
     /* height: 100vh; */
     margin-bottom: 40px; 
     padding: 5px 250px 28px 45px;
@@ -517,9 +528,9 @@ footer {
 }
 
 #aboutus {
-    /* position: relative; */
-    /* top: 40px; */
-    /* margin-top: 40px; */
+    position: relative;
+    top: 40px;
+    margin-top: 40px;
     /* margin: 0 80px; */
     /* overflow: hidden; */
     display: flex;   
@@ -533,6 +544,7 @@ footer {
     position: relative;
     /* left: 50px; */
     text-align: center;
+    /* width: 100%; */
 }
 
 /* for vertical line separation */
@@ -545,7 +557,7 @@ footer {
 
 .vertical {
     width: "0";
-    size : "300";
+    size : "50px";
      margin: 0 auto;
 }
   
