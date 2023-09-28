@@ -2,7 +2,7 @@
 
 (Developer: Morgan Asare)
 
-![Mockup image](https://ui.dev/amiresponsive?url=https://cleanoak.github.io/clean-king/)
+![Mockup image](docs/mockup-image.png)
 
 [Live webpage](https://cleanoak.github.io/clean-king/index.html)
 
