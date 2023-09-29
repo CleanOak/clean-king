@@ -64,7 +64,7 @@ nav {
     width: 100%;
     left: 0;
     right: 10px;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     display: none;
     top: 100%; 
 
@@ -539,8 +539,8 @@ input[type=text] {
 
 
 .vertical {
-    width: "0";
-    size : "50px";
+    /* width: "0"; */
+     size : 50px;
      margin: 0 auto;
 }
   
