@@ -53,7 +53,7 @@ header a {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #E26310;
+    color: #d65e0fef;
 }
 
 /* Nav bar */
@@ -73,8 +73,8 @@ nav {
 #menu {
     list-style-type: none;
     letter-spacing: 4px;
-    font-size: 110%;
-    color: #E26310;
+    font-size: 140%;
+    color: #d65e0fef;
      
 }
 
