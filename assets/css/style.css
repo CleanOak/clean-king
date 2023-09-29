@@ -157,7 +157,7 @@ main {
 /* Our services section */
 
 #services {
-    margin-top: 60px auto;
+    margin-top: 60px;
     text-align: center;
     background-color: #FFFDD0;
     height: auto;
@@ -539,8 +539,8 @@ input[type=text] {
 
 
 .vertical {
-    /* width: "0"; */
-     size : 50px;
+   
+     /* resize : 50px; */
      margin: 0 auto;
 }
   
