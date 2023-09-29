@@ -44,32 +44,32 @@
 To help customers in the East Midlands have easy access to our services by finding about us on our website.
 
 ### User Goals
-- Finding a cleaning service available in the East Middlands. i.e. Leicestershire, Derby, Loughborough etc.
-- View a full description of the different services we provide
-- Find Contact information about Clean King
-- Find Social Network information about clean King
-- Book a service through the website
+1. Finding a cleaning service available in the East Middlands. i.e. Leicestershire, Derby, Loughborough etc.
+2. View a full description of the different services we provide
+3. Find Contact information about Clean King
+4. Find Social Network information about clean King
+5. Book a service through the website
 
 ### Site Owner Goals
-- Boost engagement on the website
-- Promote business presence online
-- Increase revenue
-- Provide easy access of information
+1. Boost engagement on the website
+2. Promote business presence online
+3. Increase revenue
+4. Provide easy access of information
 
 ## User Experience
 
-### Target Audience
-- Customers who want their homes to be cleaned on special occasions and regularly
-- Businesses who need their facility managed by experts
-- Big Industries like warehouses and factories
+### Target Customers
+1. Customers who want their homes to be cleaned on special occasions and regularly
+2. Businesses who need their facility managed by experts
+3. Big Industries like warehouses and factories
 
 ### User Requrements and Expectations
 
-- An easy to use website with navigation system
-- Acceible on all web browsers
-- Easy to find information about our services
-- Very intuitive
-- Excellent and consistent page layouts
+1. An easy to use website with navigation system
+2. Acceible on all web browsers
+3. Easy to find information about our services
+4. Very intuitive
+5. Excellent and consistent page layouts
 
 ### User Stories
 
@@ -157,6 +157,8 @@ This page has three pages and eight other features
 - This has all three pages
 - The navbar is fully responsive and changes to a toggler. this links all pages.
 the toggler transforms to a hamburger menu on small screens
+- This allows users to navigate the page easily
+- Users are able to locate other pages on the website 
 
 <details><summary>logo</summary>
 <img src="docs/features/logonavbar.png">
@@ -164,6 +166,8 @@ the toggler transforms to a hamburger menu on small screens
 
 ### Footer
 the footer features our social media network handles. This is also available on all pages
+
+- This allows users to easily find more about the company on their social network 
 
 <details><summary>footer</summary>
 <img src="docs/features/footer.png">
@@ -175,6 +179,8 @@ The service page provides information about the differnt types of services provi
 - Domestic Cleaning
 - Commercial Cleaning
 - industrial cleaning
+- This helps users to find information on what services are provided
+- Allows users to make quick decisions on what they want
 
 <details><summary>services</summary>
 <img src="docs/features/services.png">
@@ -184,6 +190,8 @@ The service page provides information about the differnt types of services provi
 ### About US Page
 About Us page features information on the companies goals and mission. Also it has the contact
 information and a booking form.
+
+- This gives users a brief summary about what the company is about
 
 <details><summary>about us</summary>
 <img src="docs/features/aboutus.png">
@@ -198,12 +206,18 @@ The contact section has all the various forms where users can reach the company
 - Opening and Closing information
 - Map for direction
 
+- Users are able to find the location of the company
+- Users are able to contact the company by the information provided
+
 <details><summary>contact</summary>
 <img src="docs/features/contact.png">
 </details>
 
 ### Booking Form
 The booking form also allows customers to book any typle of services from the optioins in the radio buttons.
+
+- Users are able to book a service on the go
+- Users are able to easily select what type of service they need
 
 <details><summary>book</summary>
 <img src="docs/features/booking.png">
@@ -213,6 +227,8 @@ The booking form also allows customers to book any typle of services from the op
 
 This has a simple select option to help users make a decision
 
+- This helps users to select the type of service they want 
+
 <details><summary>rodio button</summary>
 <img src="docs/features/radio_buttons.png">
 </details>
@@ -221,6 +237,8 @@ This has a simple select option to help users make a decision
 ### Map
 
 Direction to the address can be accessed by a simple click on the map
+
+- Users are able to locate the company easily
 
 <details><summary>map</summary>
 <img src="docs/features/map_area.png">
