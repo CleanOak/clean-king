@@ -27,7 +27,6 @@ h3 {
 
 p {
     font-family: 'lato', sans-serif;
-    /* text-transform: uppercase; */
     letter-spacing: 2px;
 }
 
@@ -57,7 +56,7 @@ header a {
     color: #E26310;
 }
 
-/* Navbar style -- Not sure why this isn't working in the code*/ 
+/* Nav bar */
 
 nav {
     position: absolute;
@@ -75,22 +74,15 @@ nav {
     list-style-type: none;
     letter-spacing: 4px;
     font-size: 110%;
-    /* position: fixed;
-    top:15px;
-    right: 5px;
-    font-family: 'lato', sans-serif; */
     color: #E26310;
      
 }
 
 #menu > li {
-    display: block;
-    /* float: left; */
-    
+    display: block;    
 }
 
 li > a:hover{
-    /* display: inline-block; */
     padding: 6px;
     background-color: #E26310;
     color: #ffffff;
@@ -120,14 +112,12 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 10px;
-    /* margin-bottom: 40px; */
     min-height: calc(100vh - 95px);
     display: flex;
     flex-direction: column;
 }
 
 /* cleaner*/
-
 #cleaner {
     height: 500px;
     width: 100%;
@@ -167,7 +157,6 @@ main {
 /* Our services section */
 
 #services {
-    /* width: 100%; */
     margin-top: 60px auto;
     text-align: center;
     background-color: #FFFDD0;
@@ -197,12 +186,10 @@ main {
     
 
 #commercial {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    /* min-height: 100vh; */
 }
 
 #commercial p {
@@ -210,7 +197,6 @@ main {
 }
 
 #domestic {
-       /* display: flex; */
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -222,7 +208,6 @@ main {
 }
 
 #industrial {
-       /* display: flex; */
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -235,7 +220,6 @@ main {
 
 /* footer information */
 footer {
-    
             bottom: 0;
             left: 0;
             right: 0;
@@ -257,7 +241,6 @@ footer {
 #socials {
     text-align: center;
     padding: 2px 0;
-    /* display: flex; */
     justify-content: space-evenly;
     background-color: rgb(255, 99, 71, 0.9);
 }
@@ -274,26 +257,17 @@ footer {
 /* Our services section */
 #ourservice{
     background-color: #FFFDD0;
-    /* height: auto; */
     width: 100%;
     position: relative;
     top: 50px;
     text-align: center;
     font-size: larger;
-    justify-content: center;
-    /* align-items: center; */
-   
-   
+    justify-content: center;   
 }
 
 .comm_section {
-    
-    /* margin-top: 5px; */
     background-color: #FFFDD0;
-    height: auto;
-    /* display: flex; */
-    /* display: inline-block; */
-   
+    height: auto;  
 }
 
 .general_info {
@@ -303,7 +277,6 @@ footer {
 
 .service_img {
     width: 100%;
-    /* height: 500px; */
     line-height: 1rem;
     position: relative;
     object-fit: cover;
@@ -334,13 +307,10 @@ footer {
 }
 
 #about_img {
-    /* width: 100%; */
     position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* left: 150px; */
-    /* height: 200px; */
 }
 
 
@@ -372,9 +342,7 @@ footer {
 /* Contact us section */
 #contact_us {
     height: 550px;
-    /* width: 100%; */
     position: relative;
-    /* top: 60px; */
     margin-top: 120px;
     margin-bottom: 240px;
     text-align: center;
@@ -390,10 +358,8 @@ footer {
 /* Form section */
 #booknow_form {
     margin-top: 50px;
-    /* background-color: #FFFDD0; */
     margin: 5px 0 0 0;
     padding: 0 8px;
-    /* text-align: center; */
 }
 
 input[type=text] {
@@ -412,7 +378,6 @@ input[type=text] {
 
   input[type="radio"] {
     margin-right: 0;
-    /* width: 100%; */
   }
 
 
@@ -479,8 +444,7 @@ input[type=text] {
 
 
         /* Main Section */
-                main {
-                     
+                main {   
                     margin-top: 50px;             
                 }
 
@@ -493,7 +457,6 @@ input[type=text] {
                 }
 
                 #cover-text {
-                    /* margin-top: 5px; */
                     width:300px;
                     font-size: medium;
                    
@@ -546,7 +509,6 @@ input[type=text] {
   align-items:inherit;
     width: 100vw;
     margin-top: 60px;
-    /* height: 100vh; */
     margin-bottom: 40px; 
     padding: 5px 50px 28px 45px;
 }
@@ -561,8 +523,6 @@ input[type=text] {
     position: relative;
     top: 40px;
     margin-top: 40px;
-    /* margin: 0 80px; */
-    /* overflow: hidden; */
     padding: 12px 20px;
     display: flex;   
     height: 420px;
@@ -573,10 +533,6 @@ input[type=text] {
 
 #booknow_form {
     position: relative;
-    /* left: 50px; */
-    /* text-align: center; */
-    /* width: 100%; */
-   
    display: inline-block; 
    
 }
@@ -606,7 +562,6 @@ input[type=text] {
           align-items:inherit;
             width: 100vw;
             margin-top: 60px;
-            /* height: 100vh; */
             margin-bottom: 40px; 
             padding: 5px 250px 28px 45px;
         }

@@ -228,6 +228,7 @@ Direction to the address can be accessed by a simple click on the map
 
 ## Validation
 
+
 ### HTML Validation
 
 ### CSS Validation
