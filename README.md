@@ -158,8 +158,16 @@ This page has three pages and eight other features
 - The navbar is fully responsive and changes to a toggler. this links all pages.
 the toggler transforms to a hamburger menu on small screens
 
+<details><summary>logo</summary>
+<img src="docs/features/logonavbar.png">
+</details>
+
 ### Footer
 the footer features our social media network handles. This is also available on all pages
+
+<details><summary>footer</summary>
+<img src="docs/features/footer.png">
+</details>
 
 ### Services page
 The service page provides information about the differnt types of services provided by Clean King
@@ -168,10 +176,18 @@ The service page provides information about the differnt types of services provi
 - Commercial Cleaning
 - industrial cleaning
 
+<details><summary>services</summary>
+<img src="docs/features/services.png">
+</details>
+
 
 ### About US Page
 About Us page features information on the companies goals and mission. Also it has the contact
 information and a booking form.
+
+<details><summary>about us</summary>
+<img src="docs/features/aboutus.png">
+</details>
 
 ### Contact Section
 The contact section has all the various forms where users can reach the company
@@ -182,16 +198,33 @@ The contact section has all the various forms where users can reach the company
 - Opening and Closing information
 - Map for direction
 
+<details><summary>contact</summary>
+<img src="docs/features/contact.png">
+</details>
+
 ### Booking Form
 The booking form also allows customers to book any typle of services from the optioins in the radio buttons.
+
+<details><summary>book</summary>
+<img src="docs/features/booking.png">
+</details>
 
 ### Radio buttons
 
 This has a simple select option to help users make a decision
 
+<details><summary>rodio button</summary>
+<img src="docs/features/radio_buttons.png">
+</details>
+
+
 ### Map
 
 Direction to the address can be accessed by a simple click on the map
+
+<details><summary>map</summary>
+<img src="docs/features/map_area.png">
+</details>
 
 ## Validation
 
