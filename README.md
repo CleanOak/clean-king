@@ -122,9 +122,17 @@ The website consists of three pages:
 ### Wireframes
 
 <details><summary>Home</summary>
-
-
+<img src="docs/wireframes/home_page.png">
 </details>
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/services.png">
+</details>
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/about_us.png">
+</details>
+
 
 ## Technologies Used
 
@@ -217,7 +225,7 @@ This website was deployed using GitHub Pages by following below:
 
 
 ## Acknowledgements
-My biggest gratitude goes to my wife who has supported me through out this whole journey
+My biggest gratitude goes to my wife who has supported me through out this project <br>
 Also to the following;
 - My mentor Mo Shami for his support and guidance
 - To the new friends I have made on this course who encourage me to do more
