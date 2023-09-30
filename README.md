@@ -262,6 +262,13 @@ The stylesheet for this website was validated using the W3C [Jigsaw](https://jig
 
 ### Accessibility 
 
+The accessibility test was done with Wave Accessibility Evolution tool. All the test passed.
+
+* [Home page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/index.html)
+* [Services page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/services.html)
+* [About Us page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/aboutus.html)
+* [404 page]()
+
 
 ### Performance
 
