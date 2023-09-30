@@ -246,8 +246,11 @@ Direction to the address can be accessed by a simple click on the map
 
 ## Validation
 
-
 ### HTML Validation
+* [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2Findex.html)
+* [Services page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2Fservices.html)
+* [About Us page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2Faboutus.html)
+* [404 page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2F404.html)
 
 ### CSS Validation
 
