@@ -4,7 +4,7 @@
 
 ![Mockup image](docs/mockup_img.png)
 
-[Live webpage](https://cleanoak.github.io/clean-king/index.html)
+[Live webpage](https://cleanoak.github.io/clean-king/)
 
 ## Table of Content
 
