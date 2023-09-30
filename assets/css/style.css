@@ -107,6 +107,7 @@ li > a:hover{
 
 
 
+
 /* Main page */
 
 main {
@@ -427,7 +428,6 @@ input[type=text] {
 
 
 
-
 /* Media query: for mobile phones and tablets */
 @media screen and (min-width: 768px) {
 
@@ -452,6 +452,7 @@ input[type=text] {
 
         #nav-collapse-label {
             display: none;
+            
         }
 
 
@@ -567,6 +568,10 @@ input[type=text] {
     
         }
 
+        #nav-collapse-label {
+            display: none;
+        
+        }
 
         #contact_us {
         display: flex; 
@@ -594,6 +599,11 @@ input[type=text] {
     main {
     
             margin-top: 0;
+        }
+
+        #nav-collapse-label {
+            display: none;
+        
         }
 
      #cleaner {
