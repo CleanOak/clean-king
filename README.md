@@ -125,11 +125,11 @@ The website consists of three pages:
 <img src="docs/wireframes/home_page.png">
 </details>
 
-<details><summary>Home</summary>
+<details><summary>Services</summary>
 <img src="docs/wireframes/services.png">
 </details>
 
-<details><summary>Home</summary>
+<details><summary>About Us</summary>
 <img src="docs/wireframes/about_us.png">
 </details>
 
@@ -272,6 +272,17 @@ The accessibility test was done with Wave Accessibility Evolution tool. All the 
 
 ### Performance
 
+<details><summary>Home</summary>
+<img src="docs/validation/home_perf.png">
+</details>
+
+<details><summary>Services</summary>
+<img src="docs/validation/services_perf.png">
+</details>
+
+<details><summary>About Us</summary>
+<img src="docs/validation/aboutus_perf.png">
+</details>
 
 ### Performing tests on various devices
 
