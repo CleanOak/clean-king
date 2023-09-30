@@ -247,6 +247,9 @@ Direction to the address can be accessed by a simple click on the map
 ## Validation
 
 ### HTML Validation
+
+The html pages for this website was validated using [Nu Html Check](https://validator.w3.org/nu/) and no errors were found. 
+
 * [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2Findex.html)
 * [Services page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2Fservices.html)
 * [About Us page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcleanoak.github.io%2Fclean-king%2Faboutus.html)
