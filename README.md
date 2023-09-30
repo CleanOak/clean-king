@@ -267,7 +267,7 @@ The accessibility test was done with Wave Accessibility Evolution tool. All the 
 * [Home page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/index.html)
 * [Services page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/services.html)
 * [About Us page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/aboutus.html)
-* [404 page]()
+* [404 page](https://wave.webaim.org/report#/https://cleanoak.github.io/clean-king/abotus.html)
 
 
 ### Performance
