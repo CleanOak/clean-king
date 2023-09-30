@@ -254,12 +254,16 @@ Direction to the address can be accessed by a simple click on the map
 
 ### CSS Validation
 
+The stylesheet for this website was validated using the W3C [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS validation service. The file contained no errors.
+* [CSS Validation](https://jigsaw.w3.org/css-validator/validator)
+
 ### Accessibility 
 
 ### Performance
 
 
 ### Performing tests on various devices
+
 
 
 
@@ -276,6 +280,19 @@ This website was deployed using GitHub Pages by following below:
 
 
 ## Credits
+
+- [Background images](https://www.pexels.com/search/background/)
+- [Colours](https://htmlcolorcodes.com/colors/light-orange/)
+- [Website Informations](https://htmlcolorcodes.com/colors/light-orange/)
+- [Istockphotos](https://htmlcolorcodes.com/colors/light-orange/)
+- [UI Dev](https://theme.co/forum/t/footer-content-overlapping-with-main-content/73859)
+- [HTML Validator](https://validator.w3.org/nu/)
+- [CSS Validator](https://www.w3.org/)
+- [Wave Web Accessibility](https://wave.webaim.org/)
+- [Font Awesome](https://validator.w3.org/nu/)
+- [Google Fonts](https://validator.w3.org/nu/)
+- [W3 Schools](https://validator.w3.org/nu/)
+- [Stack Overflow](https://validator.w3.org/nu/)
 
 
 
