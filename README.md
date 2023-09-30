@@ -286,6 +286,14 @@ The accessibility test was done with Wave Accessibility Evolution tool. All the 
 
 ### Performing tests on various devices
 
+The website was tested on the following devices
+ 
+ - Iphone 12 pro
+ - MacBook Pro
+ - Samsung S22
+
+ The website has also been tested on Google Chrome, Microsoft Edge and Safari. <br>
+ There was no compatibility issues.
 
 
 
